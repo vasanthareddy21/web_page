@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+  <style>
+nav{
+  background-color: white;
+}
+h2{
+  color: black;
+}
+span:nth-child(6){
+  color: red;
+}
+header{
+  padding: 20px;
+  background-image: url(https://media.istockphoto.com/id/1292991881/photo/the-more-you-know-the-more-your-business-grows.jpg?b=1&s=170667a&w=0&k=20&c=YCD78LQZUWZ12mEXbU249PFZ0pX63ArXslk91EMFvms=);
+}
+#child1{
+      width: 500px;
+      height: 250px;
+      background-color: aliceblue;
+    }
+    #child2{
+        width: 500px;
+        height: 250px;
+        background-color:aliceblue;
+        margin-top: 20px;
+      }
+      #child{
+        width: 80%;
+        height: 420px;
+        background-color: white;
+        margin-top: -70px;
+        margin-left: 150px;
+        padding: 30px;
+      }
+  .fas{
+        border: 2px solid orange;
+        border-radius: 50%;
+        padding: 20px;
+        color: orange;
+        margin: 30px;
+        margin-left: 20px;
+        font-size: 20px;
+      }
+      #submit{
+        background-color: rgb(29, 202, 202);
+        text-decoration: none;
+        font-weight: bolder;
+        color: white;
+        margin-left: 80px;
+        padding:20px;
+      }
+      aside{
+        background-color: aliceblue;
+        float: right;
+        position: relative;
+        bottom: 450px;
+        right: 200px;
+  
+      }
+      table{
+        padding: 20px;
+    }
+    label{
+      margin-left: 40px;
+      padding: 20px;
+    }
+    input{
+      border: none;
+      text-align: center;
+      padding: 15px;
+      width: 250px;
+    }
+    textarea{
+      border: none;
+    }
+  </style>
+</head>
+<body>
+ <nav>
+  <h2 align="left">
+    <span>H</span>
+    <span>u</span>
+    <span>b</span>
+    <span>s</span>
+    <span>p</span>
+    <span>0</span>
+    <span>t</span>
+  </h2>
+ </nav> 
+ <header>
+  <h1 align="center">CONTACT US ABOUT HUBSPOT'S<br>SOFTWARE</h1>
+  <p align="center">we'd love to show you how you can get more traffic and leads,increase your sales<br>
+    productivity.provide better customer service,or all of the above!Here are a few ways<br>
+    to reach out to our sales team
+  </p>
+ </header>
+ <div id="child">
+<div id="child1">
+  <i class="fas fa-phone"></i>
+    call us diectly at<br>
+  <span style="color:rgb(29, 202, 202); font-size:25px; margin-left:100px;">+353 1512 4400</span><br>
+  <span style="color:rgb(29, 202, 202); font: size 15px;margin-left:100px;">see all the numbers and loacations</span>
+</div>
+<div id="child2">
+  <i class="fas fa-comments"></i>
+  chats with our sales team<br>
+  <input type="submit" value="CHAT WITH SALES" id="submit">
+</div>
+ </div>
+ <aside>
+  <h1 align="center">Book a Meeting</h1>
+      <h5 align="center">To schedule time to speak with one of our sales representatives,complete<br>
+        the form,the click "next" to choose a date and time that works for you
+      </h5>
+      <table cellspacing="10px">
+        <tr>
+          <td><label for="#name">FIRST NAME*</label><br><input type="text" id="name"></td> 
+          <td><label for="#name">LAST NAME*</label><br><input type="text" id="name"></td>
+        </tr>
+        <tr>
+          <td><label for="#mail">EMAIL*</label><br>
+          <input type="text" id="mail"></td>
+          <td><label for="#pwd">PHONE NUMBER*</label><br>
+          <input type="number" id="pwd"></td>
+        </tr>
+        <tr>
+          <td><label for="#name">COMPANY NAME*</label><br>
+          <input type="text" id="name"></td>
+          <td><label for="">WEBSITE URL*</label><br>
+          <input type="text" id="name"></td>
+        </tr>
+        <tr>
+          <td colspan="4" align="center"><label for="#employ">EMPLOYEES*</label><br>
+            <textarea name="" id="" cols="80" rows="3"></textarea></td>
+          </tr>
+            <tr>
+          <td><select name="" id="emp">
+            <option value="">please select</option>
+        </select></td>
+        </tr> 
+        </table>
+ </aside>
+</body>
+</html>
